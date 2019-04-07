@@ -1,0 +1,42 @@
+{
+    "name": "softshop/proyecto_test",
+    "type": "project",
+    "description": "Proyecto dummy para testing.",
+    "keywords": ["promociones", "dashboard"],
+    "homepage": "https://localhost/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Rojas",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "http://localhost",
+        "source": "http://localhost"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "monolog/monolog": "^1.22",
+        "netresearch/jsonmapper": "^1.1",
+        "tebru/gson-php": "^0.5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "classmap": [
+            "application/core/",
+            "application/controller/",
+            "application/database/",
+            "application/exception/",
+            "application/model/",
+            "application/model/dao/",
+            "application/traits/",
+            "application/util/",
+            "application/util/paginator/",
+            "application/util/security/",
+            "application/util/security/password"
+        ]
+    }
+}

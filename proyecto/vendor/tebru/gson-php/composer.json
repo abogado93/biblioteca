@@ -1,0 +1,31 @@
+{
+    "name": "tebru/gson-php",
+    "description": "Gson for PHP: Convert PHP objects to and from json",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nate Brunette",
+            "email": "n@tebru.net"
+        }
+    ],
+    "require": {
+        "php": ">= 7.1",
+        "tebru/php-type": "^0.1.1",
+        "tebru/doctrine-annotation-reader": "^0.3.0",
+        "symfony/cache": "^3.3|^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tebru\\Gson\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tebru\\Gson\\Test\\": "tests/"
+        }
+    }
+}

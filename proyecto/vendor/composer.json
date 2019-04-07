@@ -1,0 +1,43 @@
+{
+    "name": "softshop/dashboard-promociones",
+    "type": "project",
+    "description": "Envio de promociones. Estadisticas de envio.",
+    "keywords": ["promociones", "dashboard"],
+    "homepage": "https://localhost/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Rojas",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "http://192.168.253.25",
+        "source": "http://192.168.253.25"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "monolog/monolog": "^1.22",
+        "netresearch/jsonmapper": "^1.1",
+        "tebru/gson-php": "^0.5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "classmap": [
+            "application/core/",
+            "application/controller/",
+            "application/database/",
+            "application/exception/",
+            "application/model/",
+            "application/model/dao/",
+            "application/traits/",
+            "application/util/",
+            "application/util/image_optimizer/",
+            "application/util/paginator/",
+            "application/util/security/",
+            "application/util/security/password"
+        ]
+    }
+}
