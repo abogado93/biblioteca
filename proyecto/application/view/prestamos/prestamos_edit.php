@@ -90,6 +90,14 @@ $prestamo = $data->getProperty('prestamo');
                                     </div>
                             </div>
 											  <br>
+											  <div class="col-lg-12">
+                                    <label for="pago">Pagos<span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><span class="glyphicon glyphicon-list-alt"></span></div>
+                                        <input type="text" class="form-control" name="pago" id="pago" placeholder="Pago"  value="<?php echo $prestamo->getPrestamo_pago()?>">
+                                    </div>
+                            </div>
+											  <br>
                             <div class="row">
                                 <div class="col-xs-12"><span class="text-danger">(*) Campos requeridos</span></div>
                             </div>

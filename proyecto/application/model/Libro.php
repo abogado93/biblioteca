@@ -9,8 +9,7 @@ class Libro{
   public $libro_precio;
   public $libro_existencia;
   public $libro_cantidad;
-  public $tsAlta;
-  public $libroAlta;
+ 
  
      public function __construct(LibroBuilder $builder) {
         $this->id = $builder->id;
@@ -21,8 +20,7 @@ class Libro{
         $this->libro_precio = $builder->libro_precio;
         $this->libro_existencia = $builder->libro_existencia;
         $this->libro_cantidad = $builder->libro_cantidad;
-        $this->tsAlta = $builder->tsAlta;
-        $this->usuarioAlta = $builder->usuarioAlta;
+       
     }
  
  

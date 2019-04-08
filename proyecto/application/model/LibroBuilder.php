@@ -11,6 +11,7 @@ class LibroBuilder
   public $libro_precio;
   public $libro_existencia;
   public $libro_cantidad;
+  public $tsAlta;
   public $libroAlta;
 	
 	

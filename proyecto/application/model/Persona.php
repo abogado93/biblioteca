@@ -9,7 +9,7 @@ class Persona{
    public $persona_sexo; 
    public $id;
    public $persona_fecha;
-   public $personaAlta;
+   
    
    
    public function getPersona_nombre() {
@@ -44,9 +44,7 @@ class Persona{
        return $this->persona_fecha;
    }
 
-   public function getPersonaAlta() {
-        return $this->personaAlta;
-   }
+  
 
 
 }

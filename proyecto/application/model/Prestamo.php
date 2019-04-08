@@ -48,14 +48,7 @@ class Prestamo{
        return $this->prestamo_pago;
    }
 
-	  public function getTsAlta(){
-      return $this->tsAlta;
-  }
 
-  
-   public function getPrestamoAlta() {
-        return $this->prestamoAlta;
-   }
 
 
 }

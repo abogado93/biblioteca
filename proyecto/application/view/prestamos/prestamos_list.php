@@ -31,8 +31,8 @@
                                 <th>Devolucion</th>
                                 <th>Dias de prestamo</th>
                                 <th>Cantidad</th>
-                                <th>&nbsp</th>
-                                <th>&nbsp</th>
+                                <th>Pagos</th>
+                                <th>&nbsp </th>
                             </tr>
                             </thead>
 
@@ -50,7 +50,7 @@
                                         <td><?php echo $prestamo->getPrestamo_devolucion() ?></td>
                                         <td><?php echo $prestamo->getPrestamo_dias() ?></td>
                                          <td><?php echo $prestamo->getPrestamo_cantidad() ?></td>
-                                        <td><?php echo $prestamo->getPrestamoAlta()?></td>
+                                        <td><?php echo $prestamo->getPrestamo_pago()?></td>
                                         <td class="text-center"><a class="btn btn-sm btn-warning" href="<?= URL . $data->getEditURL() . htmlspecialchars($prestamo->getId(), ENT_QUOTES, 'UTF-8'); ?>"><span class="glyphicon glyphicon-pencil"></span> Modificar/Eliminar</a></td>
                                     </tr>
 

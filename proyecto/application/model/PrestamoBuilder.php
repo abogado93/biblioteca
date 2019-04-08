@@ -11,7 +11,7 @@ class PrestamoBuilder
    public $prestamo_devolucion;
    public $prestamo_dias;
    public $prestamo_cantidad;
-  
+   public $prestamo_pago;
 	
     public function __construct($id) {
         $this->id = $id;
